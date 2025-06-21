@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="livros.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <title>Biblioteca do Vinicius</title>
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Biblioteca do Vinicius</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="livros.html">Livros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contato.html">Fale Conosco</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="jumbotron bg-light text-dark">
+        <div class="container text-center">
+            <h1 class="display-4">Nossa Biblioteca ao seu Alcance!</h1>
+            <p class="lead">Agora você pode acessar virtualmente o nosso do catálogo físico.</p>
+        </div>
+    </header>
+
+    <main class="container">
+      <section>
+        <div>
+            <h2>Nossa Missão</h2>
+            <p>A nossa biblioteca tem como objetivo disponibilizar o acesso à leitura a qualquer um, não importa onde esteja. Agora com a Biblioteca do Vinicius possui sua versão digita, oferecendo os melhores títulos na biblioteca.</p>
+            <a href="livros.html" class="btn btn-danger">Acesso ao Catálogo</a>
+        </div>
+      </section>
+
+      <section class="mb-5 text-white">
+        <h2 class="text-center mb-4">Mais acessados</h2>
+        <div class="row text-dark">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-light">
+              <img src="imagens/1984.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">1984</h5>
+                <p class="card-text">George Orwell</p>
+                <p class="text-muted">Ficção Distópica</p>
+                <a href="/detalhes-livro.html?id=2" class="btn btn-danger btn-sm book-details">Visualizar</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-light">
+              <img src="imagens/crimecastigo.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Crime e Castigo</h5>
+                <p class="card-text">Fiódor Dostoiévski</p>
+                <p class="text-muted">Romance Psicológico</p>
+                <a href="/detalhes-livro.html?id=3" class="btn btn-danger btn-sm book-details">Visualisar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="card h-100 bg-light">
+              <img src="imagens/guerraepaz.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">Guerra e paz</h5>
+                <p class="card-text">Liev Tolstói</p>
+                <p class="text-muted">Romance</p>
+                <a href="/detalhes-livro.html?id=5" class="btn btn-danger btn-sm book-details">Visualisar</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; Biblioteca do Vinicius.</p>
+        </div>
+    </footer>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
